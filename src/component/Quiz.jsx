@@ -71,7 +71,7 @@ function Quiz() {
     return (
         <div className='flex justify-center items-center'>
             <div className='bg-slate-700  md:w-[500px] md:h-[550px] h-[900vh] md:mt-20 p-5 flex justify-center'>
-                <div className=' w-[400px] h-[430px] mt-36 md:mt-1 bg-gray-400 rounded shadow p-4'>
+                <div className=' w-[400px] h-[430px] mt-24 md:mt-1 bg-gray-400 rounded shadow p-4'>
                     {
                         value === 0 ?
                             <div>
@@ -263,6 +263,7 @@ function Quiz() {
                                                                     </div>
                                                                 </div>
                                                                 :
+                                                                <>
                                                                 <div className='w-[100%] h-[100%] bg-slate-800 relative'>
                                                                     <h1 className='text-center text-white text-2xl'>Quiz Result</h1>
                                                                     <img width={'100px'} className='ml-32 mt-4' src="https://th.bing.com/th/id/R.7e0fa2529500d6bc8e9f412524b1a7a3?rik=teNkt3rIPC9rcQ&riu=http%3a%2f%2fsweetclipart.com%2fmultisite%2fsweetclipart%2ffiles%2ftrophy_golden.png&ehk=6wXoX7q84ZfDhxpDc9WR4Zyy526oosyFlGSVOKTbXRM%3d&risl=&pid=ImgRaw&r=0" alt="" />
@@ -270,19 +271,15 @@ function Quiz() {
                                                                     <p className='text-lime-600 text-center mt-3 text-4xl'>{right}<span className='text-white'>/10</span></p>
                                                                     <p className='text-center text-white mt-2'>EARNED SCORE</p>
                                                                     <p className='text-center text-white text-3xl'>{5*right}</p>
-                                                                    {/* <div className='mb-3 text-5xl text-center'>RESULT</div>
-                                                                    <p className='text-center text-lg'>Total Questions : 10</p>
-                                                                    <p className='text-center text-5xl mt-3'>Score</p>
-                                                                    <h1 className='text-center text-2xl mt-3'><span className='text-6xl'>{5 * right}</span>/50</h1>
-                                                                    <div className='flex justify-center text-center'>
-                                                                        <p className='text-xl'>Correct Answer : {right}</p>
-                                                                        <p className='ml-5 text-xl'>Wrong Answer: {wrong}</p>
-                                                                    </div>
-                                                                    <div className='flex justify-center mt-4'>
-                                                                        <button className='btn btn-primary' onClick={() => playAgain()}>Play Again</button>
-
-                                                                    </div> */}
+                                                                    
+                                                                   
                                                                 </div>
+                                                                <div className='flex justify-center mt-20 md:mt-9'>
+                                                                        <button className='btn btn-success' onClick={() => playAgain()}>Play Again</button>
+
+                                                                    </div>
+                                                                </>
+                                                                
                     }
                 </div>
 
