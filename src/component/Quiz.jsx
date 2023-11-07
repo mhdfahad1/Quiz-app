@@ -98,7 +98,7 @@ function Quiz() {
                                 <div>
                                     <div className='mb-3 text-2xl'>02/10</div>
                                     <div>
-                                        <p className=''>1. Which of the following is not a browser?</p>
+                                        <p className=''>2. Which of the following is not a browser?</p>
                                         <input onClick={(e) => wrongAnswer1(e)} disabled={option2 || option3 || option4 === true} id='div5' value={'1.  Mozilla Firefox'} className='mt-8 rounded h-[40px] w-[350px]  p-2 shadow options' readOnly />
 
                                         <input onClick={(e) => wrongAnswer2(e)} disabled={option1 || option3 || option4 === true} id='div6' value={'2.  Netscape'} className='mt-2 rounded h-[40px] w-[350px]  p-2 shadow options' readOnly />
@@ -117,7 +117,7 @@ function Quiz() {
                                     <div>
                                         <div className='mb-3 text-2xl'>03/10</div>
                                         <div>
-                                            <p className=''>1. Who is the main author of the HTML?</p>
+                                            <p className=''>3. Who is the main author of the HTML?</p>
 
                                             <input id="div9" onClick={(e) => wrongAnswer1(e)} disabled={option2 || option3 || option4 === true} value={'1.Brendan Eich'} className='mt-8 rounded h-[40px] w-[350px] p-2 shadow options' readOnly />
                                             <input id='div10' onClick={(e) => rightAnswer(e)} disabled={option2 || option3 || option1 === true} value={'2. Tim Berners-Lee'} className='mt-2 rounded h-[40px] w-[350px] p-2 shadow options' readOnly />
@@ -136,7 +136,7 @@ function Quiz() {
                                         <div>
                                             <div className='mb-3 text-2xl'>04/10</div>
                                             <div>
-                                                <p className=''>1.If we want to set the style for just one element, which css selector will we use?</p>
+                                                <p className=''>4.If we want to set the style for just one element, which css selector will we use?</p>
 
                                                 <input id='div13' onClick={(e) => rightAnswer(e)} disabled={option2 || option1 || option3 === true} value={'1. id'} className='mt-8 rounded h-[40px] w-[350px]   p-2 shadow options' readOnly />
                                                 {/* ans 1 */}
@@ -154,7 +154,7 @@ function Quiz() {
                                             <div>
                                                 <div className='mb-3 text-2xl'>05/10</div>
                                                 <div>
-                                                    <p className=''>1.The HTML tag that specifies a CSS style embedded in an element is called ____?</p>
+                                                    <p className=''>5.The HTML tag that specifies a CSS style embedded in an element is called ____?</p>
 
                                                     <input id="div17" onClick={(e) => wrongAnswer1(e)} disabled={option2 || option3 || option4 === true} value={'1. Design'} className='mt-8 rounded h-[40px] w-[350px]  p-2 shadow options' readOnly />
 
@@ -176,7 +176,7 @@ function Quiz() {
                                                 <div>
                                                     <div className='mb-3 text-2xl'>06/10</div>
                                                     <div>
-                                                        <p className=''>1.The HTML standard which does not require double quotes around the values of an attribute is called ______?</p>
+                                                        <p className=''>6.The HTML standard which does not require double quotes around the values of an attribute is called ______?</p>
 
                                                         <input id="div21" onClick={(e) => wrongAnswer1(e)} disabled={option2 || option3 || option4 === true} value={'1. HTML 1'} className='mt-8 rounded h-[40px] w-[350px] p-2 shadow options' readOnly />
                                                         <input id="div22" onClick={(e) => wrongAnswer2(e)} disabled={option1 || option3 || option4 === true} value={'2. HTML 2'} className='mt-2 rounded h-[40px] w-[350px] p-2 shadow options' readOnly />
@@ -194,7 +194,7 @@ function Quiz() {
                                                     <div>
                                                         <div className='mb-3 text-2xl'>07/10</div>
                                                         <div>
-                                                            <p className=''>1. A stricter type of HTML document is known as ______?</p>
+                                                            <p className=''>7. A stricter type of HTML document is known as ______?</p>
 
                                                             <input id="div25" onClick={(e) => wrongAnswer1(e)} disabled={option2 || option3 || option4 === true} value={'1. DHTML'} className='mt-8 rounded h-[40px] w-[350px] p-2 shadow options' readOnly />
                                                             <input id='div26' onClick={(e) => rightAnswer(e)} disabled={option2 || option3 || option1 === true} value={'2. XHTML'} className='mt-2 rounded h-[40px] w-[350px] p-2 shadow options' readOnly />
@@ -212,7 +212,7 @@ function Quiz() {
                                                         <div>
                                                             <div className='mb-3 text-2xl'>08/10</div>
                                                             <div>
-                                                                <p className=''>1.Which organization defines Web standards?</p>
+                                                                <p className=''>8.Which organization defines Web standards?</p>
 
                                                                 <input id="div29" onClick={(e) => wrongAnswer1(e)} disabled={option2 || option3 || option4 === true} value={'1.  Apple Inc.'} className='mt-8 rounded h-[40px] w-[350px] p-2 shadow options' readOnly />
                                                                 <input id="div30" onClick={(e) => wrongAnswer2(e)} disabled={option1 || option3 || option4 === true} value={'2. IBM Corporation'} className='mt-2 rounded h-[40px] w-[350px] p-2 shadow options' readOnly />
@@ -230,7 +230,7 @@ function Quiz() {
                                                             <div>
                                                                 <div className='mb-3 text-2xl'>09/10</div>
                                                                 <div>
-                                                                    <p className=''>1. The property in CSS used to change the background color of an element is -?</p>
+                                                                    <p className=''>9. The property in CSS used to change the background color of an element is -?</p>
 
                                                                     <input id="div33" onClick={(e) => wrongAnswer1(e)} disabled={option2 || option3 || option4 === true} value={'1. bgcolor'} className='mt-8 rounded h-[40px] w-[350px] p-2 shadow options' readOnly />
                                                                     <input id="div34" onClick={(e) => wrongAnswer2(e)} disabled={option1 || option3 || option4 === true} value={'2. color'} className='mt-2 rounded h-[40px] w-[350px] p-2 shadow options' readOnly />
@@ -248,7 +248,7 @@ function Quiz() {
                                                                 <div>
                                                                     <div className='mb-3 text-2xl'>10/10</div>
                                                                     <div>
-                                                                        <p className=''>1.The CSS property used to control the element's font-size is -?</p>
+                                                                        <p className=''>10.The CSS property used to control the element's font-size is -?</p>
 
                                                                         <input id="div37" onClick={(e) => wrongAnswer1(e)} disabled={option2 || option3 || option4 === true} value={'1. text-style'} className='mt-8 rounded h-[40px] w-[350px] p-2 shadow options' readOnly />
                                                                         <input id="div38" onClick={(e) => wrongAnswer2(e)} disabled={option1 || option3 || option4 === true} value={'2. text-size'} className='mt-2 rounded h-[40px] w-[350px] p-2 shadow options' readOnly />
