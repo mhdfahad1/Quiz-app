@@ -34,34 +34,25 @@ function Quiz() {
         setOption1(true)
         setWrong(wrong + 1)
         console.log("wrong ans", wrong);
-        // let option=document.getElementById(e.target.id)
-        // option.style.backgroundColor='red'
-
+       
     }
     const wrongAnswer2 = (e) => {
         setOption2(true)
         setWrong(wrong + 1)
         console.log("wrong ans", wrong);
-        // const option = document.getElementById(e.target.id)
-        // option.style.backgroundColor = 'red'
-
+       
     }
     const wrongAnswer3 = (e) => {
         setOption3(true)
         setWrong(wrong + 1)
         console.log("wrong ans", wrong);
-        // const option = document.getElementById(e.target.id)
-        // option.style.backgroundColor = 'red'
-
-
+       
     }
     const rightAnswer = () => {
         setOption4(true)
         setRight(right + 1)
         console.log("right ans:", right);
-        //     const option = document.getElementById('div4')
-        //     option.style.backgroundColor = 'green'
-
+       
     }
     const playAgain = () => {
         setRight(0)
